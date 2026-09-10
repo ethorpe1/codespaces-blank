@@ -2,7 +2,7 @@
 
 .section .bss
 .globl ram
-.lcomm ram, 256        # Reserve 256 bytes of RAM
+.lcomm ram, 256        # reserve 256 bytes of RAM
 
 .section .text
 .globl fill_ram     # makes function visible to C program
